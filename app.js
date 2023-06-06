@@ -57,10 +57,10 @@ if (user) {
         break;
 
       default:
-        console.warn('You are debil 2');
+        console.warn('Choose correct option (create/read)');
     }
   } else {
-    console.warn('You are debil');
+    console.warn('Choose correct disk (A/B/C)');
   }
 } else {
   console.log('Login error');
